@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FlightSurety</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">FlightSurety</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <main class="container">
+
+        <div id="display-wrapper" class="top-20">
+        </div>
+        <div class="row top-20">
+            <label class="form">Flight</label> <input type="text" id="flight-number"> <btn class="btn btn-primary" id="submit-oracle">Submit to Oracles</btn>
+        </div>
+
+        <section>
+            <div id="display-wrapper" class="top-20">
+            </div>
+            <h2>Purchase Insurance</h2>
+
+            <p class="description">Select a flight below to purchase up to 1 ether of insurance</p>
+
+            <select id="ddlViewBy">
+                <option value="1">test1</option>
+                <option value="2" selected="selected">test2</option>
+                <option value="3">test3</option>
+              </select>
+              
+            <input type="number" id="purchase-insurance-amount"> 
+            <btn class="btn btn-primary" id="buy_insurance">Buy Insurance</btn>
+        </section>
+
+        
+    </main>
+
+   
+    
+
+</body>
+
+</html>
